@@ -4,14 +4,14 @@ import './Panel.css';
 import Footer from '../component/Footer';
 import Naver from '../component/Naver';
 
-const Panel = () => {
+const Shifts = () => {
   return (
     <div className="panel-container">
       <Naver />
 
       <main className="panel-content">
-        <h1>HOME</h1>
-        <p>Bienvenido Usuario</p> {/* Tu contenido se mantiene igual aquí */}
+        <h1>SHIFTS (Turnos)</h1>
+      <div className="contEmployes"></div>
       </main>
 
       <Footer />
@@ -19,4 +19,4 @@ const Panel = () => {
   );
 };
 
-export default Panel;
+export default Shifts;

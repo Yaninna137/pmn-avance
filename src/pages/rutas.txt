@@ -1,0 +1,14 @@
+# Rutas de navegación para los roles:
+
+# Empleado:
+- Login: /login
+- Panel (Home): /panel
+- Turnos: /turnos
+- Notificaciones: /notificaciones
+
+# Administrador:
+- Login: /login
+- Panel (Home): /panel
+- Calendario: /calendario
+- Shifts (Turnos): /shifts
+- Employees (Empleados): /employees (Esta página es para registrar empleados)

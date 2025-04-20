@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.panel-container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Barra fija arriba */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #00b894, #2ecc71);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido blanco debajo de la barra */
+.panel-content {
+    background-color: #ffffff;
+    margin: 100px auto 40px;
+    padding: 30px;
+    width: 85%;
+    border-radius: 12px;
+    color: #333333;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
