@@ -11,7 +11,9 @@ Este repositorio contiene el avance del Proyecto Modular Narrativo (PMN).
   - Panel de Usuario
 - Código subido a GitHub con control de versiones Git.
 - Herramientas utilizadas: Node.js, VSCode, Git, GitHub.
-
+- Archivo zip (Yalavrez avance) 3 documento
+   - (Avance PMN)
+   - Bocetos de interfaz
+   - Documento de captura de comandos realizados(breves datos)
 ## Link del repositorio
-
-https://github.com/tuusuario/pmn-avance
+https://github.com/Yaninna137/pmn-avance
